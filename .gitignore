@@ -1,0 +1,23 @@
+# Ignore virtual environments
+ab_env/
+venv/
+.env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Don't upload large datasets (optional)
+# data/*.csv
